@@ -1,0 +1,51 @@
+:root {
+  --bg-one: #0f0f14;
+  --bg-two: #0f0f10;
+  --active: #d2f400;
+  --white: #fff;
+  --gray: #3a3a4d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to top, var(--bg-one), var(--bg-two));
+  color: var(--white);
+}
+
+#convertBtn {
+  background: var(--active);
+  padding: 0px 40px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+#convertBtn:hover {
+  background: #c7e600;
+}
+
+input {
+  height: 40px;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+}
+
+select {
+  height: 40px;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+}
